@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hello GitHub</title>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
@@ -13,8 +14,17 @@
             min-height: 100vh;
             background-color: orange;
             color: black;
-            font-family: sans-serif;
+            font-family: 'Nunito', sans-serif;
             font-size: 3em;
+            animation: colorChange 10s infinite alternate;
+        }
+
+        @keyframes colorChange {
+            0% { background-color: #ff9a8b; }
+            25% { background-color: #ff6a88; }
+            50% { background-color: #ff99ac; }
+            75% { background-color: #f7797d; }
+            100% { background-color: #fbd786; }
         }
     </style>
 </head>
